@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Tasty Creative',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Dave Laurel',
+  author: 'Eric Dave Laurel',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
