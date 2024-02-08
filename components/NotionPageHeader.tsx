@@ -42,17 +42,17 @@ export const NotionPageHeader: React.FC<{
     return <Header block={block} />
   }
 
-//   return (
-//     <header className='notion-header'>
-//       <div className='notion-nav-header'>
-//         <Breadcrumbs block={block} rootOnly={true} />
+  return (
+    <header className='notion-header'>
+      <div className='notion-nav-header'>
+        <Breadcrumbs block={block} rootOnly={true} />
 
-//         <div className='notion-nav-header-rhs breadcrumbs'>
-//           {navigationLinks
-//             ?.map((link, index) => {
-//               if (!link.pageId && !link.url) {
-//                 return null
-//               }
+        <div className='notion-nav-header-rhs breadcrumbs'>
+          {navigationLinks
+            ?.map((link, index) => {
+              if (!link.pageId && !link.url) {
+                return null
+              }
 
 //               if (link.pageId) {
 //                 return (
