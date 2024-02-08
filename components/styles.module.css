@@ -1,4 +1,4 @@
-@keyframes spinner {
+/* @keyframes spinner {
   to {
     transform: rotate(360deg);
   }
@@ -218,3 +218,4 @@
 .hidden {
   visibility: hidden;
 }
+ */
