@@ -78,11 +78,11 @@ export const NotionPageHeader: React.FC<{
             })
             .filter(Boolean)}
 
-//           <ToggleThemeButton />
+           <ToggleThemeButton />
 
-//           {isSearchEnabled && <Search block={block} title={null} />}
-//         </div>
-//       </div>
-//     </header>
-//   )
-// }
+           {isSearchEnabled && <Search block={block} title={null} />}
+         </div>
+       </div>
+     </header>
+  )
+}
