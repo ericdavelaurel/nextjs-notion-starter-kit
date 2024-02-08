@@ -23,14 +23,14 @@ const ToggleThemeButton = () => {
     toggleDarkMode()
   }, [toggleDarkMode])
 
-  // return (
-  //   <div
-  //     className={cs('breadcrumb', 'button', !hasMounted && styles.hidden)}
-  //     onClick={onToggleTheme}
-  //   >
-  //     {hasMounted && isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
-  //   </div>
-  // )
+  return (
+    <div
+      className={cs('breadcrumb', 'button', !hasMounted && styles.hidden)}
+      onClick={onToggleTheme}
+    >
+      {hasMounted && isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
+    </div>
+  )
 }
 
 export const NotionPageHeader: React.FC<{
