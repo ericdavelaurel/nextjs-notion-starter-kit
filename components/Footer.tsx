@@ -53,7 +53,7 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.social}>
-        {config.twitter && (
+{/*         {config.twitter && (
           <a
             className={styles.twitter}
             href={`https://twitter.com/${config.twitter}`}
@@ -63,7 +63,7 @@ export const FooterImpl: React.FC = () => {
           >
             <FaTwitter />
           </a>
-        )}
+        )} */}
 
         {config.mastodon && (
           <a
@@ -88,7 +88,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.github && (
+{/*         {config.github && (
           <a
             className={styles.github}
             href={`https://github.com/${config.github}`}
@@ -98,9 +98,9 @@ export const FooterImpl: React.FC = () => {
           >
             <FaGithub />
           </a>
-        )}
+        )} */}
 
-        {config.linkedin && (
+{/*         {config.linkedin && (
           <a
             className={styles.linkedin}
             href={`https://www.linkedin.com/in/${config.linkedin}`}
@@ -110,7 +110,7 @@ export const FooterImpl: React.FC = () => {
           >
             <FaLinkedin />
           </a>
-        )}
+        )} */}
 
         {config.newsletter && (
           <a
